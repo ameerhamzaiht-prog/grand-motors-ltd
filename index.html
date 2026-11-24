@@ -1,0 +1,1478 @@
+\<!DOCTYPE html>\
+\<html lang="en">\
+\<head>\
+&#x20; \<meta charset="UTF-8">\
+&#x20; \<meta name="viewport" content="width=device-width, initial-scale=1.0">\
+&#x20; \<meta name="theme-color" content="#101419">\
+&#x20; \<meta name="description" content="Contact Auto Drive Garage in Abbeylands, Waterford, for automotive garage enquiries. Call 087 185 6318 or find the location on Google Maps.">\
+&#x20; \<meta name="robots" content="index, follow">\
+&#x20; \<meta property="og:type" content="website">\
+&#x20; \<meta property="og:title" content="Auto Drive Garage | Automotive Garage in Waterford">\
+&#x20; \<meta property="og:description" content="Auto Drive Garage, Business Park, Abbeylands, Waterford. Contact us on 087 185 6318.">\
+&#x20; \<meta property="og:locale" content="en_IE">\
+&#x20; \<title>Auto Drive Garage | Automotive Garage in Waterford\</title>\
+\
+&#x20; \<link rel="preconnect" href="https\://fonts.googleapis.com">\
+&#x20; \<link rel="preconnect" href="https\://fonts.gstatic.com" crossorigin>\
+&#x20; \<link href="https\://fonts.googleapis.com/css2?family=Barlow+Condensed:wght\@500;600;700;800;900&family=DM+Sans:wght\@400;500;600;700;800&display=swap" rel="stylesheet">\
+\
+&#x20; \<style>\
+&#x20;   :root {\
+&#x20;     \--bg: #101419;\
+&#x20;     \--bg2: #171d23;\
+&#x20;     \--panel: #1c242c;\
+&#x20;     \--white: #f4f5f5;\
+&#x20;     \--muted: #a2abb3;\
+&#x20;     \--accent: #e83c32;\
+&#x20;     \--accent-dark: #bf2c25;\
+&#x20;     \--line: rgba(255,255,255,.1);\
+&#x20;     \--font: "DM Sans", sans-serif;\
+&#x20;     \--display: "Barlow Condensed", sans-serif;\
+&#x20;     \--container: 1200px;\
+&#x20;   }\
+\
+&#x20;   \* { box-sizing: border-box; margin: 0; padding: 0; }\
+\
+&#x20;   html { scroll-behavior: smooth; scroll-padding-top: 90px; }\
+\
+&#x20;   body {\
+&#x20;     background: var(--bg);\
+&#x20;     color: var(--white);\
+&#x20;     font-family: var(--font);\
+&#x20;     line-height: 1.6;\
+&#x20;     overflow-x: hidden;\
+&#x20;   }\
+\
+&#x20;   a { color: inherit; text-decoration: none; }\
+\
+&#x20;   button, a { -webkit-tap-highlight-color: transparent; }\
+\
+&#x20;   img { max-width: 100%; display: block; }\
+\
+&#x20;   .container {\
+&#x20;     width: min(var(--container), calc(100% - 48px));\
+&#x20;     margin: auto;\
+&#x20;   }\
+\
+&#x20;   .eyebrow {\
+&#x20;     display: inline-flex;\
+&#x20;     align-items: center;\
+&#x20;     gap: 10px;\
+&#x20;     color: var(--accent);\
+&#x20;     font-size: 11px;\
+&#x20;     font-weight: 800;\
+&#x20;     letter-spacing: 2.5px;\
+&#x20;     text-transform: uppercase;\
+&#x20;   }\
+\
+&#x20;   .eyebrow::before {\
+&#x20;     content: "";\
+&#x20;     width: 25px;\
+&#x20;     height: 2px;\
+&#x20;     background: var(--accent);\
+&#x20;   }\
+\
+&#x20;   h1, h2, h3, .display {\
+&#x20;     font-family: var(--display);\
+&#x20;     text-transform: uppercase;\
+&#x20;     line-height: .98;\
+&#x20;     font-weight: 800;\
+&#x20;   }\
+\
+&#x20;   h2 { font-size: clamp(42px, 6vw, 66px); }\
+\
+&#x20;   .section-heading { max-width: 680px; }\
+\
+&#x20;   .section-heading p {\
+&#x20;     color: var(--muted);\
+&#x20;     margin-top: 18px;\
+&#x20;     font-size: 15px;\
+&#x20;     max-width: 570px;\
+&#x20;   }\
+\
+&#x20;   .accent { color: var(--accent); }\
+\
+&#x20;   .btn {\
+&#x20;     min-height: 52px;\
+&#x20;     display: inline-flex;\
+&#x20;     align-items: center;\
+&#x20;     justify-content: center;\
+&#x20;     gap: 12px;\
+&#x20;     padding: 0 25px;\
+&#x20;     background: var(--accent);\
+&#x20;     color: white;\
+&#x20;     font-size: 12px;\
+&#x20;     font-weight: 800;\
+&#x20;     letter-spacing: 1px;\
+&#x20;     text-transform: uppercase;\
+&#x20;     transition: .25s ease;\
+&#x20;     border: 1px solid var(--accent);\
+&#x20;     cursor: pointer;\
+&#x20;   }\
+\
+&#x20;   .btn:hover {\
+&#x20;     background: var(--accent-dark);\
+&#x20;     border-color: var(--accent-dark);\
+&#x20;     transform: translateY(-3px);\
+&#x20;   }\
+\
+&#x20;   .btn-outline {\
+&#x20;     background: transparent;\
+&#x20;     border-color: rgba(255,255,255,.35);\
+&#x20;   }\
+\
+&#x20;   .btn-outline:hover {\
+&#x20;     background: white;\
+&#x20;     color: var(--bg);\
+&#x20;     border-color: white;\
+&#x20;   }\
+\
+&#x20;   /\* Navigation \*/\
+\
+&#x20;   .topbar {\
+&#x20;     height: 38px;\
+&#x20;     background: #090c0f;\
+&#x20;     border-bottom: 1px solid var(--line);\
+&#x20;     font-size: 11px;\
+&#x20;     color: #b6bdc3;\
+&#x20;   }\
+\
+&#x20;   .topbar-inner {\
+&#x20;     height: 100%;\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     justify-content: space-between;\
+&#x20;     gap: 15px;\
+&#x20;   }\
+\
+&#x20;   .topbar a:hover { color: white; }\
+\
+&#x20;   .topbar-contact {\
+&#x20;     display: flex;\
+&#x20;     gap: 25px;\
+&#x20;     align-items: center;\
+&#x20;   }\
+\
+&#x20;   .navbar {\
+&#x20;     position: sticky;\
+&#x20;     top: 0;\
+&#x20;     z-index: 1000;\
+&#x20;     background: rgba(16,20,25,.96);\
+&#x20;     backdrop-filter: blur(14px);\
+&#x20;     border-bottom: 1px solid var(--line);\
+&#x20;   }\
+\
+&#x20;   .nav-inner {\
+&#x20;     min-height: 82px;\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     justify-content: space-between;\
+&#x20;     gap: 25px;\
+&#x20;   }\
+\
+&#x20;   .brand {\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     gap: 12px;\
+&#x20;   }\
+\
+&#x20;   .brand-mark {\
+&#x20;     width: 45px;\
+&#x20;     height: 45px;\
+&#x20;     background: var(--accent);\
+&#x20;     display: grid;\
+&#x20;     place-items: center;\
+&#x20;     clip-path: polygon(0 0,100% 0,100% 75%,75% 100%,0 100%);\
+&#x20;   }\
+\
+&#x20;   .brand-mark svg { width: 30px; height: 30px; }\
+\
+&#x20;   .brand-name {\
+&#x20;     font-family: var(--display);\
+&#x20;     font-size: 25px;\
+&#x20;     font-weight: 800;\
+&#x20;     line-height: 1;\
+&#x20;     text-transform: uppercase;\
+&#x20;   }\
+\
+&#x20;   .brand-name span {\
+&#x20;     display: block;\
+&#x20;     color: var(--accent);\
+&#x20;     font-size: 11px;\
+&#x20;     letter-spacing: 4px;\
+&#x20;     margin-top: 5px;\
+&#x20;   }\
+\
+&#x20;   .nav-links {\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     gap: 31px;\
+&#x20;     list-style: none;\
+&#x20;   }\
+\
+&#x20;   .nav-links a {\
+&#x20;     color: #c2c8cd;\
+&#x20;     font-size: 12px;\
+&#x20;     font-weight: 700;\
+&#x20;     transition: color .2s;\
+&#x20;   }\
+\
+&#x20;   .nav-links a:hover { color: var(--accent); }\
+\
+&#x20;   .nav-cta { min-height: 44px; padding: 0 18px; }\
+\
+&#x20;   .menu-toggle {\
+&#x20;     display: none;\
+&#x20;     background: transparent;\
+&#x20;     border: 0;\
+&#x20;     color: white;\
+&#x20;     cursor: pointer;\
+&#x20;     padding: 10px;\
+&#x20;   }\
+\
+&#x20;   .menu-toggle svg { width: 25px; height: 25px; }\
+\
+&#x20;   /\* Hero \*/\
+\
+&#x20;   .hero {\
+&#x20;     min-height: 690px;\
+&#x20;     position: relative;\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     isolation: isolate;\
+&#x20;     background: #12181e;\
+&#x20;     overflow: hidden;\
+&#x20;   }\
+\
+&#x20;   .hero::before {\
+&#x20;     content: "";\
+&#x20;     position: absolute;\
+&#x20;     inset: 0;\
+&#x20;     z-index: -2;\
+&#x20;     background:\
+&#x20;       linear-gradient(90deg, rgba(10,14,18,.98) 0%, rgba(10,14,18,.86) 42%, rgba(10,14,18,.2) 100%),\
+&#x20;       linear-gradient(0deg, rgba(10,14,18,.7), transparent 55%),\
+&#x20;       url("https\://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=2000&q=85") center 53% / cover no-repeat;\
+&#x20;   }\
+\
+&#x20;   .hero::after {\
+&#x20;     content: "";\
+&#x20;     position: absolute;\
+&#x20;     right: -150px;\
+&#x20;     top: -100px;\
+&#x20;     width: 650px;\
+&#x20;     height: 650px;\
+&#x20;     border: 1px solid rgba(232,60,50,.25);\
+&#x20;     border-radius: 50%;\
+&#x20;     z-index: -1;\
+&#x20;     box-shadow: 0 0 0 65px rgba(232,60,50,.035), 0 0 0 130px rgba(232,60,50,.025);\
+&#x20;   }\
+\
+&#x20;   .hero-content {\
+&#x20;     padding-top: 75px;\
+&#x20;     padding-bottom: 90px;\
+&#x20;     max-width: 770px;\
+&#x20;     animation: rise .8s ease both;\
+&#x20;   }\
+\
+&#x20;   @keyframes rise {\
+&#x20;     from { opacity: 0; transform: translateY(25px); }\
+&#x20;     to { opacity: 1; transform: translateY(0); }\
+&#x20;   }\
+\
+&#x20;   .hero-label {\
+&#x20;     display: inline-flex;\
+&#x20;     align-items: center;\
+&#x20;     gap: 10px;\
+&#x20;     padding: 9px 14px;\
+&#x20;     background: rgba(232,60,50,.12);\
+&#x20;     border-left: 3px solid var(--accent);\
+&#x20;     font-size: 10px;\
+&#x20;     font-weight: 800;\
+&#x20;     letter-spacing: 2px;\
+&#x20;     text-transform: uppercase;\
+&#x20;     margin-bottom: 26px;\
+&#x20;   }\
+\
+&#x20;   .hero h1 {\
+&#x20;     font-size: clamp(65px, 10vw, 112px);\
+&#x20;     letter-spacing: -2px;\
+&#x20;     max-width: 780px;\
+&#x20;   }\
+\
+&#x20;   .hero h1 span {\
+&#x20;     display: block;\
+&#x20;     color: var(--accent);\
+&#x20;   }\
+\
+&#x20;   .hero-description {\
+&#x20;     max-width: 490px;\
+&#x20;     margin-top: 25px;\
+&#x20;     font-size: 15px;\
+&#x20;     line-height: 1.9;\
+&#x20;     color: #c3cbd1;\
+&#x20;   }\
+\
+&#x20;   .hero-actions {\
+&#x20;     display: flex;\
+&#x20;     flex-wrap: wrap;\
+&#x20;     gap: 13px;\
+&#x20;     margin-top: 35px;\
+&#x20;   }\
+\
+&#x20;   .hero-bottom {\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     gap: 13px;\
+&#x20;     margin-top: 58px;\
+&#x20;     color: #b8c0c7;\
+&#x20;     font-size: 11px;\
+&#x20;     letter-spacing: 1px;\
+&#x20;   }\
+\
+&#x20;   .hero-bottom svg { width: 18px; color: var(--accent); }\
+\
+&#x20;   /\* Information strip \*/\
+\
+&#x20;   .info-strip {\
+&#x20;     background: var(--accent);\
+&#x20;     position: relative;\
+&#x20;     z-index: 2;\
+&#x20;   }\
+\
+&#x20;   .info-grid {\
+&#x20;     display: grid;\
+&#x20;     grid-template-columns: repeat(3,1fr);\
+&#x20;   }\
+\
+&#x20;   .info-item {\
+&#x20;     padding: 25px 28px;\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     gap: 17px;\
+&#x20;     border-right: 1px solid rgba(255,255,255,.2);\
+&#x20;   }\
+\
+&#x20;   .info-item:last-child { border: 0; }\
+\
+&#x20;   .info-icon {\
+&#x20;     width: 42px;\
+&#x20;     height: 42px;\
+&#x20;     display: grid;\
+&#x20;     place-items: center;\
+&#x20;     border: 1px solid rgba(255,255,255,.4);\
+&#x20;     flex-shrink: 0;\
+&#x20;   }\
+\
+&#x20;   .info-icon svg { width: 21px; height: 21px; }\
+\
+&#x20;   .info-item small {\
+&#x20;     display: block;\
+&#x20;     font-size: 9px;\
+&#x20;     font-weight: 800;\
+&#x20;     letter-spacing: 1.5px;\
+&#x20;     opacity: .8;\
+&#x20;     text-transform: uppercase;\
+&#x20;   }\
+\
+&#x20;   .info-item strong {\
+&#x20;     display: block;\
+&#x20;     font-size: 13px;\
+&#x20;     margin-top: 3px;\
+&#x20;   }\
+\
+&#x20;   /\* About \*/\
+\
+&#x20;   .about {\
+&#x20;     padding: 115px 0;\
+&#x20;     background: var(--bg);\
+&#x20;     position: relative;\
+&#x20;   }\
+\
+&#x20;   .about-grid {\
+&#x20;     display: grid;\
+&#x20;     grid-template-columns: 1fr 1fr;\
+&#x20;     align-items: center;\
+&#x20;     gap: 85px;\
+&#x20;   }\
+\
+&#x20;   .about-visual {\
+&#x20;     position: relative;\
+&#x20;     min-height: 480px;\
+&#x20;   }\
+\
+&#x20;   .about-photo {\
+&#x20;     position: absolute;\
+&#x20;     inset: 0 35px 35px 0;\
+&#x20;     background:\
+&#x20;       linear-gradient(0deg, rgba(0,0,0,.3), transparent),\
+&#x20;       url("https\://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1000&q=85") center / cover;\
+&#x20;     background-color: #303940;\
+&#x20;   }\
+\
+&#x20;   .about-photo::after {\
+&#x20;     content: "";\
+&#x20;     position: absolute;\
+&#x20;     inset: 14px;\
+&#x20;     border: 1px solid rgba(255,255,255,.25);\
+&#x20;   }\
+\
+&#x20;   .about-accent-box {\
+&#x20;     position: absolute;\
+&#x20;     bottom: 0;\
+&#x20;     right: 0;\
+&#x20;     width: 190px;\
+&#x20;     height: 150px;\
+&#x20;     background: var(--accent);\
+&#x20;     display: flex;\
+&#x20;     flex-direction: column;\
+&#x20;     justify-content: center;\
+&#x20;     align-items: center;\
+&#x20;     text-align: center;\
+&#x20;     padding: 15px;\
+&#x20;   }\
+\
+&#x20;   .about-accent-box strong {\
+&#x20;     font-family: var(--display);\
+&#x20;     font-size: 31px;\
+&#x20;     line-height: 1;\
+&#x20;     text-transform: uppercase;\
+&#x20;   }\
+\
+&#x20;   .about-accent-box span {\
+&#x20;     font-size: 10px;\
+&#x20;     font-weight: 700;\
+&#x20;     margin-top: 8px;\
+&#x20;     letter-spacing: 1px;\
+&#x20;     text-transform: uppercase;\
+&#x20;   }\
+\
+&#x20;   .about-copy h2 { margin-top: 17px; }\
+\
+&#x20;   .about-copy > p {\
+&#x20;     color: var(--muted);\
+&#x20;     margin-top: 22px;\
+&#x20;     font-size: 14px;\
+&#x20;     line-height: 1.95;\
+&#x20;   }\
+\
+&#x20;   .about-details {\
+&#x20;     margin-top: 28px;\
+&#x20;     display: grid;\
+&#x20;     gap: 14px;\
+&#x20;   }\
+\
+&#x20;   .detail {\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     gap: 13px;\
+&#x20;     font-size: 13px;\
+&#x20;     font-weight: 700;\
+&#x20;   }\
+\
+&#x20;   .detail svg {\
+&#x20;     width: 20px;\
+&#x20;     height: 20px;\
+&#x20;     color: var(--accent);\
+&#x20;     flex-shrink: 0;\
+&#x20;   }\
+\
+&#x20;   .about-copy .btn { margin-top: 30px; }\
+\
+&#x20;   /\* Services \*/\
+\
+&#x20;   .services {\
+&#x20;     padding: 105px 0 115px;\
+&#x20;     background: var(--bg2);\
+&#x20;     position: relative;\
+&#x20;   }\
+\
+&#x20;   .services::before {\
+&#x20;     content: "GARAGE";\
+&#x20;     position: absolute;\
+&#x20;     right: -20px;\
+&#x20;     top: 25px;\
+&#x20;     font-family: var(--display);\
+&#x20;     font-size: 180px;\
+&#x20;     font-weight: 900;\
+&#x20;     color: rgba(255,255,255,.018);\
+&#x20;     pointer-events: none;\
+&#x20;   }\
+\
+&#x20;   .services-header {\
+&#x20;     display: flex;\
+&#x20;     justify-content: space-between;\
+&#x20;     align-items: end;\
+&#x20;     gap: 35px;\
+&#x20;     margin-bottom: 45px;\
+&#x20;   }\
+\
+&#x20;   .services-header .section-heading { max-width: 650px; }\
+\
+&#x20;   .service-grid {\
+&#x20;     display: grid;\
+&#x20;     grid-template-columns: repeat(3,1fr);\
+&#x20;     gap: 18px;\
+&#x20;   }\
+\
+&#x20;   .service-card {\
+&#x20;     min-height: 250px;\
+&#x20;     background: var(--panel);\
+&#x20;     border: 1px solid var(--line);\
+&#x20;     padding: 29px;\
+&#x20;     position: relative;\
+&#x20;     overflow: hidden;\
+&#x20;     transition: .3s ease;\
+&#x20;   }\
+\
+&#x20;   .service-card:hover {\
+&#x20;     transform: translateY(-6px);\
+&#x20;     border-color: rgba(232,60,50,.65);\
+&#x20;     background: #222b34;\
+&#x20;   }\
+\
+&#x20;   .service-number {\
+&#x20;     position: absolute;\
+&#x20;     top: 18px;\
+&#x20;     right: 22px;\
+&#x20;     color: rgba(255,255,255,.1);\
+&#x20;     font-family: var(--display);\
+&#x20;     font-size: 54px;\
+&#x20;     font-weight: 900;\
+&#x20;   }\
+\
+&#x20;   .service-icon {\
+&#x20;     width: 48px;\
+&#x20;     height: 48px;\
+&#x20;     display: grid;\
+&#x20;     place-items: center;\
+&#x20;     background: rgba(232,60,50,.12);\
+&#x20;     color: var(--accent);\
+&#x20;     margin-bottom: 27px;\
+&#x20;   }\
+\
+&#x20;   .service-icon svg { width: 26px; height: 26px; }\
+\
+&#x20;   .service-card h3 {\
+&#x20;     font-size: 26px;\
+&#x20;     letter-spacing: .3px;\
+&#x20;     margin-bottom: 12px;\
+&#x20;   }\
+\
+&#x20;   .service-card p {\
+&#x20;     color: var(--muted);\
+&#x20;     font-size: 12px;\
+&#x20;     line-height: 1.8;\
+&#x20;   }\
+\
+&#x20;   .service-note {\
+&#x20;     padding: 20px 23px;\
+&#x20;     border-left: 3px solid var(--accent);\
+&#x20;     background: rgba(232,60,50,.07);\
+&#x20;     color: #c4cbd1;\
+&#x20;     font-size: 12px;\
+&#x20;     margin-top: 23px;\
+&#x20;   }\
+\
+&#x20;   /\* Visual section \*/\
+\
+&#x20;   .visual-section {\
+&#x20;     padding: 105px 0;\
+&#x20;     background: var(--bg);\
+&#x20;   }\
+\
+&#x20;   .visual-grid {\
+&#x20;     display: grid;\
+&#x20;     grid-template-columns: 1.2fr .8fr;\
+&#x20;     grid-template-rows: 240px 240px;\
+&#x20;     gap: 17px;\
+&#x20;     margin-top: 43px;\
+&#x20;   }\
+\
+&#x20;   .visual-card {\
+&#x20;     position: relative;\
+&#x20;     overflow: hidden;\
+&#x20;     background: #242e36;\
+&#x20;   }\
+\
+&#x20;   .visual-card:first-child { grid-row: span 2; }\
+\
+&#x20;   .visual-card img {\
+&#x20;     width: 100%;\
+&#x20;     height: 100%;\
+&#x20;     object-fit: cover;\
+&#x20;     transition: transform .7s ease;\
+&#x20;     opacity: .82;\
+&#x20;   }\
+\
+&#x20;   .visual-card:hover img { transform: scale(1.06); }\
+\
+&#x20;   .visual-card::after {\
+&#x20;     content: "";\
+&#x20;     position: absolute;\
+&#x20;     inset: 0;\
+&#x20;     background: linear-gradient(0deg,rgba(8,12,15,.8),transparent 65%);\
+&#x20;     pointer-events: none;\
+&#x20;   }\
+\
+&#x20;   .visual-caption {\
+&#x20;     position: absolute;\
+&#x20;     bottom: 22px;\
+&#x20;     left: 25px;\
+&#x20;     z-index: 2;\
+&#x20;   }\
+\
+&#x20;   .visual-caption small {\
+&#x20;     display: block;\
+&#x20;     color: var(--accent);\
+&#x20;     font-size: 9px;\
+&#x20;     font-weight: 800;\
+&#x20;     letter-spacing: 2px;\
+&#x20;     text-transform: uppercase;\
+&#x20;   }\
+\
+&#x20;   .visual-caption h3 {\
+&#x20;     font-size: 30px;\
+&#x20;     margin-top: 5px;\
+&#x20;   }\
+\
+&#x20;   /\* Contact \*/\
+\
+&#x20;   .contact {\
+&#x20;     padding: 110px 0;\
+&#x20;     background: #171d23;\
+&#x20;   }\
+\
+&#x20;   .contact-grid {\
+&#x20;     display: grid;\
+&#x20;     grid-template-columns: .9fr 1.1fr;\
+&#x20;     gap: 75px;\
+&#x20;     align-items: start;\
+&#x20;   }\
+\
+&#x20;   .contact-copy h2 { margin-top: 18px; }\
+\
+&#x20;   .contact-copy > p {\
+&#x20;     margin-top: 20px;\
+&#x20;     color: var(--muted);\
+&#x20;     font-size: 14px;\
+&#x20;     line-height: 1.9;\
+&#x20;   }\
+\
+&#x20;   .contact-list {\
+&#x20;     margin-top: 35px;\
+&#x20;     display: grid;\
+&#x20;     gap: 22px;\
+&#x20;   }\
+\
+&#x20;   .contact-item {\
+&#x20;     display: flex;\
+&#x20;     align-items: flex-start;\
+&#x20;     gap: 17px;\
+&#x20;   }\
+\
+&#x20;   .contact-icon {\
+&#x20;     width: 45px;\
+&#x20;     height: 45px;\
+&#x20;     display: grid;\
+&#x20;     place-items: center;\
+&#x20;     background: rgba(232,60,50,.12);\
+&#x20;     color: var(--accent);\
+&#x20;     flex-shrink: 0;\
+&#x20;   }\
+\
+&#x20;   .contact-icon svg { width: 21px; height: 21px; }\
+\
+&#x20;   .contact-item small {\
+&#x20;     color: var(--muted);\
+&#x20;     display: block;\
+&#x20;     font-size: 10px;\
+&#x20;     font-weight: 700;\
+&#x20;     letter-spacing: 1px;\
+&#x20;     text-transform: uppercase;\
+&#x20;     margin-bottom: 4px;\
+&#x20;   }\
+\
+&#x20;   .contact-item strong {\
+&#x20;     font-size: 14px;\
+&#x20;     line-height: 1.6;\
+&#x20;   }\
+\
+&#x20;   .contact-item a:hover { color: var(--accent); }\
+\
+&#x20;   .contact-panel {\
+&#x20;     background: #222b33;\
+&#x20;     border: 1px solid var(--line);\
+&#x20;     padding: 40px;\
+&#x20;     position: relative;\
+&#x20;     overflow: hidden;\
+&#x20;   }\
+\
+&#x20;   .contact-panel::before {\
+&#x20;     content: "";\
+&#x20;     position: absolute;\
+&#x20;     width: 170px;\
+&#x20;     height: 170px;\
+&#x20;     border: 25px solid rgba(232,60,50,.06);\
+&#x20;     border-radius: 50%;\
+&#x20;     right: -65px;\
+&#x20;     top: -65px;\
+&#x20;   }\
+\
+&#x20;   .contact-panel h3 {\
+&#x20;     font-size: 36px;\
+&#x20;     margin-bottom: 14px;\
+&#x20;   }\
+\
+&#x20;   .contact-panel > p {\
+&#x20;     color: var(--muted);\
+&#x20;     font-size: 13px;\
+&#x20;     margin-bottom: 28px;\
+&#x20;     max-width: 360px;\
+&#x20;   }\
+\
+&#x20;   .contact-action {\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     justify-content: space-between;\
+&#x20;     gap: 15px;\
+&#x20;     border-top: 1px solid var(--line);\
+&#x20;     padding: 18px 0;\
+&#x20;   }\
+\
+&#x20;   .contact-action:last-child { border-bottom: 1px solid var(--line); }\
+\
+&#x20;   .contact-action span {\
+&#x20;     font-size: 12px;\
+&#x20;     font-weight: 700;\
+&#x20;   }\
+\
+&#x20;   .contact-action a {\
+&#x20;     color: var(--accent);\
+&#x20;     font-size: 12px;\
+&#x20;     font-weight: 800;\
+&#x20;   }\
+\
+&#x20;   .contact-action a:hover { color: white; }\
+\
+&#x20;   /\* Map \*/\
+\
+&#x20;   .location {\
+&#x20;     background: var(--bg);\
+&#x20;     padding: 90px 0 105px;\
+&#x20;   }\
+\
+&#x20;   .location-grid {\
+&#x20;     display: grid;\
+&#x20;     grid-template-columns: 1fr 1fr;\
+&#x20;     align-items: center;\
+&#x20;     gap: 55px;\
+&#x20;   }\
+\
+&#x20;   .location-copy h2 { margin-top: 16px; }\
+\
+&#x20;   .location-copy p {\
+&#x20;     margin-top: 18px;\
+&#x20;     color: var(--muted);\
+&#x20;     font-size: 14px;\
+&#x20;     line-height: 1.9;\
+&#x20;   }\
+\
+&#x20;   .location-copy .btn { margin-top: 28px; }\
+\
+&#x20;   .map-visual {\
+&#x20;     min-height: 300px;\
+&#x20;     background:\
+&#x20;       linear-gradient(rgba(13,19,24,.72),rgba(13,19,24,.88)),\
+&#x20;       url("https\://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=80") center / cover;\
+&#x20;     border: 1px solid var(--line);\
+&#x20;     display: flex;\
+&#x20;     flex-direction: column;\
+&#x20;     align-items: center;\
+&#x20;     justify-content: center;\
+&#x20;     text-align: center;\
+&#x20;     padding: 35px;\
+&#x20;   }\
+\
+&#x20;   .map-pin {\
+&#x20;     width: 64px;\
+&#x20;     height: 64px;\
+&#x20;     border-radius: 50%;\
+&#x20;     background: var(--accent);\
+&#x20;     display: grid;\
+&#x20;     place-items: center;\
+&#x20;     box-shadow: 0 0 0 12px rgba(232,60,50,.12);\
+&#x20;     margin-bottom: 25px;\
+&#x20;   }\
+\
+&#x20;   .map-pin svg { width: 30px; height: 30px; }\
+\
+&#x20;   .map-visual h3 { font-size: 35px; }\
+\
+&#x20;   .map-visual p {\
+&#x20;     color: #c0c9d0;\
+&#x20;     font-size: 12px;\
+&#x20;     margin-top: 12px;\
+&#x20;     max-width: 300px;\
+&#x20;   }\
+\
+&#x20;   /\* Footer \*/\
+\
+&#x20;   footer {\
+&#x20;     background: #090c0f;\
+&#x20;     border-top: 1px solid var(--line);\
+&#x20;   }\
+\
+&#x20;   .footer-main {\
+&#x20;     padding: 55px 0;\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     justify-content: space-between;\
+&#x20;     gap: 35px;\
+&#x20;   }\
+\
+&#x20;   .footer-brand p {\
+&#x20;     color: var(--muted);\
+&#x20;     font-size: 12px;\
+&#x20;     margin-top: 15px;\
+&#x20;     max-width: 300px;\
+&#x20;   }\
+\
+&#x20;   .footer-links {\
+&#x20;     display: flex;\
+&#x20;     flex-wrap: wrap;\
+&#x20;     gap: 25px;\
+&#x20;     font-size: 11px;\
+&#x20;     font-weight: 700;\
+&#x20;     color: #bbc2c8;\
+&#x20;   }\
+\
+&#x20;   .footer-links a:hover { color: var(--accent); }\
+\
+&#x20;   .footer-bottom {\
+&#x20;     padding: 19px 0;\
+&#x20;     border-top: 1px solid var(--line);\
+&#x20;     display: flex;\
+&#x20;     align-items: center;\
+&#x20;     justify-content: space-between;\
+&#x20;     gap: 20px;\
+&#x20;     color: #7d878f;\
+&#x20;     font-size: 10px;\
+&#x20;   }\
+\
+&#x20;   .footer-bottom a { color: #c2c8cd; }\
+\
+&#x20;   .footer-bottom a:hover { color: var(--accent); }\
+\
+&#x20;   /\* Mobile call bar \*/\
+\
+&#x20;   .mobile-call {\
+&#x20;     display: none;\
+&#x20;     position: fixed;\
+&#x20;     bottom: 0;\
+&#x20;     left: 0;\
+&#x20;     right: 0;\
+&#x20;     z-index: 999;\
+&#x20;     padding: 10px 16px;\
+&#x20;     background: rgba(10,13,16,.96);\
+&#x20;     border-top: 1px solid var(--line);\
+&#x20;   }\
+\
+&#x20;   .mobile-call .btn { width: 100%; }\
+\
+&#x20;   /\* Scroll animations \*/\
+\
+&#x20;   .reveal {\
+&#x20;     opacity: 0;\
+&#x20;     transform: translateY(25px);\
+&#x20;     transition: opacity .7s ease, transform .7s ease;\
+&#x20;   }\
+\
+&#x20;   .reveal.visible {\
+&#x20;     opacity: 1;\
+&#x20;     transform: translateY(0);\
+&#x20;   }\
+\
+&#x20;   @media (prefers-reduced-motion: reduce) {\
+&#x20;     \*, \*::before, \*::after {\
+&#x20;       scroll-behavior: auto !important;\
+&#x20;       animation-duration: .01ms !important;\
+&#x20;       transition-duration: .01ms !important;\
+&#x20;     }\
+&#x20;     .reveal { opacity: 1; transform: none; }\
+&#x20;   }\
+\
+&#x20;   /\* Responsive \*/\
+\
+&#x20;   @media (max-width: 900px) {\
+&#x20;     .nav-links { gap: 18px; }\
+&#x20;     .nav-cta { display: none; }\
+&#x20;     .about-grid { gap: 45px; }\
+&#x20;     .contact-grid { gap: 35px; }\
+&#x20;     .service-grid { grid-template-columns: repeat(2,1fr); }\
+&#x20;     .services-header { align-items: start; flex-direction: column; }\
+&#x20;   }\
+\
+&#x20;   @media (max-width: 680px) {\
+&#x20;     .container { width: min(100% - 36px, var(--container)); }\
+\
+&#x20;     .topbar { height: 34px; }\
+&#x20;     .topbar-inner { justify-content: center; }\
+&#x20;     .topbar-inner > span { display: none; }\
+&#x20;     .topbar-contact { justify-content: center; }\
+\
+&#x20;     .nav-inner { min-height: 70px; }\
+&#x20;     .brand-mark { width: 39px; height: 39px; }\
+&#x20;     .brand-name { font-size: 23px; }\
+\
+&#x20;     .menu-toggle { display: block; }\
+\
+&#x20;     .nav-links {\
+&#x20;       display: none;\
+&#x20;       position: absolute;\
+&#x20;       top: 70px;\
+&#x20;       left: 0;\
+&#x20;       right: 0;\
+&#x20;       background: #101419;\
+&#x20;       border-bottom: 1px solid var(--line);\
+&#x20;       padding: 18px 22px 25px;\
+&#x20;       flex-direction: column;\
+&#x20;       align-items: stretch;\
+&#x20;       gap: 0;\
+&#x20;     }\
+\
+&#x20;     .nav-links.open { display: flex; }\
+\
+&#x20;     .nav-links li a {\
+&#x20;       display: block;\
+&#x20;       padding: 13px 0;\
+&#x20;       border-bottom: 1px solid var(--line);\
+&#x20;       font-size: 13px;\
+&#x20;     }\
+\
+&#x20;     .hero { min-height: 620px; }\
+\
+&#x20;     .hero::before {\
+&#x20;       background:\
+&#x20;         linear-gradient(90deg,rgba(10,14,18,.93),rgba(10,14,18,.55)),\
+&#x20;         linear-gradient(0deg,rgba(10,14,18,.7),transparent),\
+&#x20;         url("https\://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1000&q=80") center / cover;\
+&#x20;     }\
+\
+&#x20;     .hero-content { padding-top: 70px; padding-bottom: 65px; }\
+&#x20;     .hero h1 { font-size: clamp(60px, 17vw, 88px); }\
+&#x20;     .hero-description { font-size: 13px; }\
+&#x20;     .hero-actions { flex-direction: column; align-items: stretch; }\
+&#x20;     .hero-bottom { margin-top: 35px; }\
+\
+&#x20;     .info-grid { grid-template-columns: 1fr; }\
+&#x20;     .info-item {\
+&#x20;       padding: 18px 8px;\
+&#x20;       border-right: 0;\
+&#x20;       border-bottom: 1px solid rgba(255,255,255,.2);\
+&#x20;     }\
+\
+&#x20;     .info-item:last-child { border-bottom: 0; }\
+\
+&#x20;     .about, .services, .visual-section, .contact { padding: 75px 0; }\
+\
+&#x20;     .about-grid, .contact-grid, .location-grid {\
+&#x20;       grid-template-columns: 1fr;\
+&#x20;       gap: 42px;\
+&#x20;     }\
+\
+&#x20;     .about-visual { min-height: 360px; }\
+&#x20;     .about-copy h2 { font-size: 50px; }\
+&#x20;     .service-grid { grid-template-columns: 1fr; }\
+&#x20;     .service-card { min-height: 215px; }\
+&#x20;     .visual-grid { grid-template-columns: 1fr; grid-template-rows: 250px 200px 200px; }\
+&#x20;     .visual-card:first-child { grid-row: auto; }\
+&#x20;     .contact-panel { padding: 28px 23px; }\
+&#x20;     .contact-panel h3 { font-size: 32px; }\
+\
+&#x20;     .location { padding: 75px 0; }\
+&#x20;     .location-copy h2 { font-size: 49px; }\
+&#x20;     .map-visual { min-height: 270px; }\
+\
+&#x20;     .footer-main {\
+&#x20;       flex-direction: column;\
+&#x20;       align-items: flex-start;\
+&#x20;       padding: 42px 0;\
+&#x20;     }\
+\
+&#x20;     .footer-links { gap: 18px; }\
+&#x20;     .footer-bottom { flex-direction: column; align-items: flex-start; padding-bottom: 85px; }\
+\
+&#x20;     .mobile-call { display: block; }\
+&#x20;   }\
+\
+&#x20;   @media (max-width: 380px) {\
+&#x20;     .hero h1 { font-size: 58px; }\
+&#x20;     .about-copy h2, .location-copy h2 { font-size: 43px; }\
+&#x20;     .btn { padding: 0 16px; }\
+&#x20;   }\
+&#x20; \</style>\
+\
+&#x20; \<script type="application/ld+json">\
+&#x20; {\
+&#x20;   "@context": "https\://schema.org",\
+&#x20;   "@type": "AutoRepair",\
+&#x20;   "name": "Auto Drive Garage",\
+&#x20;   "telephone": "+353871856318",\
+&#x20;   "address": {\
+&#x20;     "@type": "PostalAddress",\
+&#x20;     "streetAddress": "Business Park, Abbeylands",\
+&#x20;     "addressLocality": "Waterford",\
+&#x20;     "addressRegion": "Co. Kilkenny",\
+&#x20;     "postalCode": "X91 EY28",\
+&#x20;     "addressCountry": "IE"\
+&#x20;   }\
+&#x20; }\
+&#x20; \</script>\
+\</head>\
+\
+\<body>\
+\
+&#x20; \<div class="topbar">\
+&#x20;   \<div class="container topbar-inner">\
+&#x20;     \<span>YOUR LOCAL AUTOMOTIVE GARAGE\</span>\
+&#x20;     \<div class="topbar-contact">\
+&#x20;       \<a href="tel:+353871856318">☎ &nbsp;087 185 6318\</a>\
+&#x20;       \<span>Business Park, Abbeylands\</span>\
+&#x20;     \</div>\
+&#x20;   \</div>\
+&#x20; \</div>\
+\
+&#x20; \<header class="navbar">\
+&#x20;   \<div class="container nav-inner">\
+&#x20;     \<a href="#home" class="brand" aria-label="Auto Drive Garage home">\
+&#x20;       \<div class="brand-mark">\
+&#x20;         \<svg viewBox="0 0 40 40" fill="none" aria-hidden="true">\
+&#x20;           \<path d="M5 24L9 13C9.8 11 11 10 13 10H27C29 10 30.2 11 31 13L35 24V30H5V24Z" stroke="white" stroke-width="2.5"/>\
+&#x20;           \<path d="M8 23H32M12 30V34M28 30V34M11 18H29" stroke="white" stroke-width="2.5" stroke-linecap="round"/>\
+&#x20;           \<circle cx="12" cy="26" r="2" fill="white"/>\
+&#x20;           \<circle cx="28" cy="26" r="2" fill="white"/>\
+&#x20;         \</svg>\
+&#x20;       \</div>\
+&#x20;       \<div class="brand-name">\
+&#x20;         Auto Drive\
+&#x20;         \<span>GARAGE\</span>\
+&#x20;       \</div>\
+&#x20;     \</a>\
+\
+&#x20;     \<button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navigation">\
+&#x20;       \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">\
+&#x20;         \<path d="M3 6h18M3 12h18M3 18h18"/>\
+&#x20;       \</svg>\
+&#x20;     \</button>\
+\
+&#x20;     \<ul class="nav-links" id="navigation">\
+&#x20;       \<li>\<a href="#home">Home\</a>\</li>\
+&#x20;       \<li>\<a href="#about">About\</a>\</li>\
+&#x20;       \<li>\<a href="#services">Enquiries\</a>\</li>\
+&#x20;       \<li>\<a href="#location">Location\</a>\</li>\
+&#x20;       \<li>\<a href="#contact">Contact\</a>\</li>\
+&#x20;     \</ul>\
+\
+&#x20;     \<a class="btn nav-cta" href="tel:+353871856318">Call Garage &nbsp; ↗\</a>\
+&#x20;   \</div>\
+&#x20; \</header>\
+\
+&#x20; \<main>\
+\
+&#x20;   \<section class="hero" id="home">\
+&#x20;     \<div class="container">\
+&#x20;       \<div class="hero-content">\
+&#x20;         \<div class="hero-label">AUTO DRIVE GARAGE · WATERFORD\</div>\
+&#x20;         \<h1>\
+&#x20;           YOUR CAR.\
+&#x20;           \<span>OUR FOCUS.\</span>\
+&#x20;         \</h1>\
+&#x20;         \<p class="hero-description">\
+&#x20;           Looking for an automotive garage? Get in touch with Auto Drive Garage in Abbeylands, Waterford. Contact us directly to discuss your vehicle and your requirements.\
+&#x20;         \</p>\
+&#x20;         \<div class="hero-actions">\
+&#x20;           \<a href="tel:+353871856318" class="btn">\
+&#x20;             \<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">\
+&#x20;               \<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.84.58 2.8.7a2 2 0 0 1 1.73 2.03z"/>\
+&#x20;             \</svg>\
+&#x20;             Call 087 185 6318\
+&#x20;           \</a>\
+&#x20;           \<a href="#location" class="btn btn-outline">Find Our Location &nbsp; ↗\</a>\
+&#x20;         \</div>\
+&#x20;         \<div class="hero-bottom">\
+&#x20;           \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">\
+&#x20;             \<path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>\
+&#x20;             \<circle cx="12" cy="10" r="2.5"/>\
+&#x20;           \</svg>\
+&#x20;           BUSINESS PARK, ABBEYLANDS, WATERFORD\
+&#x20;         \</div>\
+&#x20;       \</div>\
+&#x20;     \</div>\
+&#x20;   \</section>\
+\
+&#x20;   \<section class="info-strip" aria-label="Garage contact information">\
+&#x20;     \<div class="container info-grid">\
+&#x20;       \<div class="info-item">\
+&#x20;         \<div class="info-icon">\
+&#x20;           \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;             \<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72"/>\
+&#x20;           \</svg>\
+&#x20;         \</div>\
+&#x20;         \<div>\
+&#x20;           \<small>Give us a call\</small>\
+&#x20;           \<strong>087 185 6318\</strong>\
+&#x20;         \</div>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="info-item">\
+&#x20;         \<div class="info-icon">\
+&#x20;           \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;             \<path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>\
+&#x20;             \<circle cx="12" cy="10" r="2.5"/>\
+&#x20;           \</svg>\
+&#x20;         \</div>\
+&#x20;         \<div>\
+&#x20;           \<small>Find our garage\</small>\
+&#x20;           \<strong>Abbeylands, Waterford\</strong>\
+&#x20;         \</div>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="info-item">\
+&#x20;         \<div class="info-icon">\
+&#x20;           \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;             \<path d="M12 3v18M3 12h18"/>\
+&#x20;             \<circle cx="12" cy="12" r="9"/>\
+&#x20;           \</svg>\
+&#x20;         \</div>\
+&#x20;         \<div>\
+&#x20;           \<small>Get in touch\</small>\
+&#x20;           \<strong>Discuss your vehicle\</strong>\
+&#x20;         \</div>\
+&#x20;       \</div>\
+&#x20;     \</div>\
+&#x20;   \</section>\
+\
+&#x20;   \<section class="about" id="about">\
+&#x20;     \<div class="container about-grid">\
+&#x20;       \<div class="about-visual reveal">\
+&#x20;         \<div class="about-photo">\</div>\
+&#x20;         \<div class="about-accent-box">\
+&#x20;           \<strong>Auto Drive\</strong>\
+&#x20;           \<span>Garage · Waterford\</span>\
+&#x20;         \</div>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="about-copy reveal">\
+&#x20;         \<span class="eyebrow">WELCOME TO AUTO DRIVE\</span>\
+&#x20;         \<h2>GET TO KNOW \<span class="accent">US.\</span>\</h2>\
+&#x20;         \<p>\
+&#x20;           Auto Drive Garage is located at Business Park, Abbeylands, Waterford. Whether you have a question about your vehicle or want to discuss a garage enquiry, we're just a phone call away.\
+&#x20;         \</p>\
+&#x20;         \<p>\
+&#x20;           Get in touch directly to discuss what you need and find out how we can assist.\
+&#x20;         \</p>\
+\
+&#x20;         \<div class="about-details">\
+&#x20;           \<div class="detail">\
+&#x20;             \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">\
+&#x20;               \<path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>\
+&#x20;               \<circle cx="12" cy="10" r="2.5"/>\
+&#x20;             \</svg>\
+&#x20;             Business Park, Abbeylands\
+&#x20;           \</div>\
+&#x20;           \<div class="detail">\
+&#x20;             \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">\
+&#x20;               \<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3"/>\
+&#x20;             \</svg>\
+&#x20;             087 185 6318\
+&#x20;           \</div>\
+&#x20;           \<div class="detail">\
+&#x20;             \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">\
+&#x20;               \<path d="M12 2v20M2 12h20"/>\
+&#x20;               \<circle cx="12" cy="12" r="9"/>\
+&#x20;             \</svg>\
+&#x20;             X91 EY28, Ireland\
+&#x20;           \</div>\
+&#x20;         \</div>\
+\
+&#x20;         \<a href="tel:+353871856318" class="btn">Talk to Auto Drive &nbsp; ↗\</a>\
+&#x20;       \</div>\
+&#x20;     \</div>\
+&#x20;   \</section>\
+\
+&#x20;   \<section class="services" id="services">\
+&#x20;     \<div class="container">\
+&#x20;       \<div class="services-header reveal">\
+&#x20;         \<div class="section-heading">\
+&#x20;           \<span class="eyebrow">HOW CAN WE HELP?\</span>\
+&#x20;           \<h2>LET'S TALK \<span class="accent">CARS.\</span>\</h2>\
+&#x20;           \<p>\
+&#x20;             Have a question or need assistance with your vehicle? Contact Auto Drive Garage directly to discuss your requirements.\
+&#x20;           \</p>\
+&#x20;         \</div>\
+&#x20;         \<a href="tel:+353871856318" class="btn">Make An Enquiry &nbsp; ↗\</a>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="service-grid">\
+&#x20;         \<article class="service-card reveal">\
+&#x20;           \<span class="service-number">01\</span>\
+&#x20;           \<div class="service-icon">\
+&#x20;             \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;               \<path d="M5 17h14l1-5-2-6H6l-2 6 1 5Z"/>\
+&#x20;               \<path d="M4 12h16M7 17v3M17 17v3M7 9h10"/>\
+&#x20;               \<circle cx="7.5" cy="14.5" r="1"/>\
+&#x20;               \<circle cx="16.5" cy="14.5" r="1"/>\
+&#x20;             \</svg>\
+&#x20;           \</div>\
+&#x20;           \<h3>Vehicle Enquiries\</h3>\
+&#x20;           \<p>Have a question about your vehicle? Contact the garage to discuss your requirements.\</p>\
+&#x20;         \</article>\
+\
+&#x20;         \<article class="service-card reveal">\
+&#x20;           \<span class="service-number">02\</span>\
+&#x20;           \<div class="service-icon">\
+&#x20;             \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;               \<circle cx="12" cy="12" r="9"/>\
+&#x20;               \<path d="M12 7v5l3 2"/>\
+&#x20;             \</svg>\
+&#x20;           \</div>\
+&#x20;           \<h3>Garage Enquiries\</h3>\
+&#x20;           \<p>Looking to arrange a visit or discuss a garage-related requirement? Give us a call.\</p>\
+&#x20;         \</article>\
+\
+&#x20;         \<article class="service-card reveal">\
+&#x20;           \<span class="service-number">03\</span>\
+&#x20;           \<div class="service-icon">\
+&#x20;             \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;               \<path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/>\
+&#x20;               \<path d="m9 12 2 2 4-4"/>\
+&#x20;             \</svg>\
+&#x20;           \</div>\
+&#x20;           \<h3>General Assistance\</h3>\
+&#x20;           \<p>Get in touch to explain what you need and find out whether we can help.\</p>\
+&#x20;         \</article>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="service-note">\
+&#x20;         \<strong>Need specific information?\</strong> Call 087 185 6318 to confirm available services, pricing and appointment arrangements.\
+&#x20;       \</div>\
+&#x20;     \</div>\
+&#x20;   \</section>\
+\
+&#x20;   \<section class="visual-section">\
+&#x20;     \<div class="container">\
+&#x20;       \<div class="section-heading reveal">\
+&#x20;         \<span class="eyebrow">AUTOMOTIVE WORLD\</span>\
+&#x20;         \<h2>BUILT AROUND \<span class="accent">MOTORING.\</span>\</h2>\
+&#x20;         \<p>\
+&#x20;           A visual look at the automotive world. For information about Auto Drive Garage and its facilities, contact us directly.\
+&#x20;         \</p>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="visual-grid">\
+&#x20;         \<div class="visual-card reveal">\
+&#x20;           \<img src="https\://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1100&q=85" alt="Automotive workshop equipment and vehicle maintenance" loading="lazy">\
+&#x20;           \<div class="visual-caption">\
+&#x20;             \<small>Automotive\</small>\
+&#x20;             \<h3>Garage Environment\</h3>\
+&#x20;           \</div>\
+&#x20;         \</div>\
+\
+&#x20;         \<div class="visual-card reveal">\
+&#x20;           \<img src="https\://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=850&q=85" alt="Car engine and mechanical components" loading="lazy">\
+&#x20;           \<div class="visual-caption">\
+&#x20;             \<small>Under The Bonnet\</small>\
+&#x20;             \<h3>Vehicle Engineering\</h3>\
+&#x20;           \</div>\
+&#x20;         \</div>\
+\
+&#x20;         \<div class="visual-card reveal">\
+&#x20;           \<img src="https\://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=850&q=85" alt="Modern car on the road" loading="lazy">\
+&#x20;           \<div class="visual-caption">\
+&#x20;             \<small>On The Road\</small>\
+&#x20;             \<h3>Keep Moving\</h3>\
+&#x20;           \</div>\
+&#x20;         \</div>\
+&#x20;       \</div>\
+&#x20;     \</div>\
+&#x20;   \</section>\
+\
+&#x20;   \<section class="contact" id="contact">\
+&#x20;     \<div class="container contact-grid">\
+&#x20;       \<div class="contact-copy reveal">\
+&#x20;         \<span class="eyebrow">GET IN TOUCH\</span>\
+&#x20;         \<h2>WE'RE JUST A \<span class="accent">CALL AWAY.\</span>\</h2>\
+&#x20;         \<p>\
+&#x20;           Have a question? Want to discuss your vehicle or make an enquiry? Contact Auto Drive Garage directly using the details below.\
+&#x20;         \</p>\
+\
+&#x20;         \<div class="contact-list">\
+&#x20;           \<div class="contact-item">\
+&#x20;             \<div class="contact-icon">\
+&#x20;               \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;                 \<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72"/>\
+&#x20;               \</svg>\
+&#x20;             \</div>\
+&#x20;             \<div>\
+&#x20;               \<small>Phone\</small>\
+&#x20;               \<strong>\<a href="tel:+353871856318">087 185 6318\</a>\</strong>\
+&#x20;             \</div>\
+&#x20;           \</div>\
+\
+&#x20;           \<div class="contact-item">\
+&#x20;             \<div class="contact-icon">\
+&#x20;               \<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">\
+&#x20;                 \<path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>\
+&#x20;                 \<circle cx="12" cy="10" r="2.5"/>\
+&#x20;               \</svg>\
+&#x20;             \</div>\
+&#x20;             \<div>\
+&#x20;               \<small>Address\</small>\
+&#x20;               \<strong>Business Park, Abbeylands,\<br>Waterford, Co. Kilkenny,\<br>X91 EY28, Ireland\</strong>\
+&#x20;             \</div>\
+&#x20;           \</div>\
+&#x20;         \</div>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="contact-panel reveal">\
+&#x20;         \<span class="eyebrow">AUTO DRIVE GARAGE\</span>\
+&#x20;         \<h3>HOW CAN WE \<span class="accent">HELP?\</span>\</h3>\
+&#x20;         \<p>Choose how you'd like to get in touch with Auto Drive Garage.\</p>\
+\
+&#x20;         \<div class="contact-action">\
+&#x20;           \<span>Speak to the garage\</span>\
+&#x20;           \<a href="tel:+353871856318">CALL NOW ↗\</a>\
+&#x20;         \</div>\
+\
+&#x20;         \<div class="contact-action">\
+&#x20;           \<span>Find our location\</span>\
+&#x20;           \<a href="https\://www\.google.com/maps?udm%26fvr=1%26pvq=Cg0vZy8xMXAxOXpqcjh5%26vet=10CAAQoqAOahcKEwjA1sDl66CYAxUAAAAAHQAAAAAQJQ..i%26cs=0%26um=1%26ie=UTF-8%26fb=1%26gl=ie%26sa=X%26ftid=0x4842c7cc6d9eca65:0x41cefe84311486e5" target="\_blank" rel="noopener noreferrer">GOOGLE MAPS ↗\</a>\
+&#x20;         \</div>\
+\
+&#x20;         \<div class="contact-action">\
+&#x20;           \<span>Discuss your requirements\</span>\
+&#x20;           \<a href="tel:+353871856318">MAKE AN ENQUIRY ↗\</a>\
+&#x20;         \</div>\
+&#x20;       \</div>\
+&#x20;     \</div>\
+&#x20;   \</section>\
+\
+&#x20;   \<section class="location" id="location">\
+&#x20;     \<div class="container location-grid">\
+&#x20;       \<div class="location-copy reveal">\
+&#x20;         \<span class="eyebrow">FIND AUTO DRIVE GARAGE\</span>\
+&#x20;         \<h2>COME FIND \<span class="accent">US.\</span>\</h2>\
+&#x20;         \<p>\
+&#x20;           Auto Drive Garage is located at Business Park, Abbeylands, Waterford, with postcode X91 EY28.\
+&#x20;         \</p>\
+&#x20;         \<p>\
+&#x20;           Use the Google Maps link to view the location and plan your journey.\
+&#x20;         \</p>\
+&#x20;         \<a class="btn" href="https\://www\.google.com/maps?udm%26fvr=1%26pvq=Cg0vZy8xMXAxOXpqcjh5%26vet=10CAAQoqAOahcKEwjA1sDl66CYAxUAAAAAHQAAAAAQJQ..i%26cs=0%26um=1%26ie=UTF-8%26fb=1%26gl=ie%26sa=X%26ftid=0x4842c7cc6d9eca65:0x41cefe84311486e5" target="\_blank" rel="noopener noreferrer">\
+&#x20;           OPEN GOOGLE MAPS &nbsp; ↗\
+&#x20;         \</a>\
+&#x20;       \</div>\
+\
+&#x20;       \<div class="map-visual reveal">\
+&#x20;         \<div class="map-pin">\
+&#x20;           \<svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">\
+&#x20;             \<path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>\
+&#x20;             \<circle cx="12" cy="10" r="2.5"/>\
+&#x20;           \</svg>\
+&#x20;         \</div>\
+&#x20;         \<h3>VISIT US\</h3>\
+&#x20;         \<p>Business Park, Abbeylands, Waterford, X91 EY28, Ireland\</p>\
+&#x20;       \</div>\
+&#x20;     \</div>\
+&#x20;   \</section>\
+\
+&#x20; \</main>\
+\
+&#x20; \<footer>\
+&#x20;   \<div class="container footer-main">\
+&#x20;     \<div class="footer-brand">\
+&#x20;       \<a href="#home" class="brand">\
+&#x20;         \<div class="brand-mark">\
+&#x20;           \<svg viewBox="0 0 40 40" fill="none" aria-hidden="true">\
+&#x20;             \<path d="M5 24L9 13C9.8 11 11 10 13 10H27C29 10 30.2 11 31 13L35 24V30H5V24Z" stroke="white" stroke-width="2.5"/>\
+&#x20;             \<path d="M8 23H32M12 30V34M28 30V34M11 18H29" stroke="white" stroke-width="2.5" stroke-linecap="round"/>\
+&#x20;           \</svg>\
+&#x20;         \</div>\
+&#x20;         \<div class="brand-name">\
+&#x20;           Auto Drive\
+&#x20;           \<span>GARAGE\</span>\
+&#x20;         \</div>\
+&#x20;       \</a>\
+&#x20;       \<p>Auto Drive Garage, Business Park, Abbeylands, Waterford, Ireland.\</p>\
+&#x20;     \</div>\
+\
+&#x20;     \<nav class="footer-links" aria-label="Footer navigation">\
+&#x20;       \<a href="#home">HOME\</a>\
+&#x20;       \<a href="#about">ABOUT\</a>\
+&#x20;       \<a href="#services">ENQUIRIES\</a>\
+&#x20;       \<a href="#location">LOCATION\</a>\
+&#x20;       \<a href="#contact">CONTACT\</a>\
+&#x20;       \<a href="tel:+353871856318">CALL US\</a>\
+&#x20;     \</nav>\
+&#x20;   \</div>\
+\
+&#x20;   \<div class="container footer-bottom">\
+&#x20;     \<span>© \<span id="year">2026\</span> Auto Drive Garage. All rights reserved.\</span>\
+&#x20;     \<a href="tel:+353871856318">087 185 6318\</a>\
+&#x20;   \</div>\
+&#x20; \</footer>\
+\
+&#x20; \<div class="mobile-call">\
+&#x20;   \<a class="btn" href="tel:+353871856318">\
+&#x20;     \<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">\
+&#x20;       \<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3"/>\
+&#x20;     \</svg>\
+&#x20;     CALL AUTO DRIVE GARAGE\
+&#x20;   \</a>\
+&#x20; \</div>\
+\
+&#x20; \<script>\
+&#x20;   // Mobile navigation\
+&#x20;   const menuToggle = document.querySelector('.menu-toggle');\
+&#x20;   const navigation = document.querySelector('.nav-links');\
+\
+&#x20;   menuToggle.addEventListener('click', () => {\
+&#x20;     const isOpen = navigation.classList.toggle('open');\
+&#x20;     menuToggle.setAttribute('aria-expanded', String(isOpen));\
+&#x20;     menuToggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');\
+&#x20;   });\
+\
+&#x20;   // Close navigation after selecting a link\
+&#x20;   document.querySelectorAll('.nav-links a').forEach(link => {\
+&#x20;     link.addEventListener('click', () => {\
+&#x20;       navigation.classList.remove('open');\
+&#x20;       menuToggle.setAttribute('aria-expanded', 'false');\
+&#x20;       menuToggle.setAttribute('aria-label', 'Open navigation menu');\
+&#x20;     });\
+&#x20;   });\
+\
+&#x20;   // Reveal animations\
+&#x20;   const revealElements = document.querySelectorAll('.reveal');\
+\
+&#x20;   if ('IntersectionObserver' in window) {\
+&#x20;     const observer = new IntersectionObserver((entries, observer) => {\
+&#x20;       entries.forEach(entry => {\
+&#x20;         if (entry.isIntersecting) {\
+&#x20;           entry.target.classList.add('visible');\
+&#x20;           observer.unobserve(entry.target);\
+&#x20;         }\
+&#x20;       });\
+&#x20;     }, { threshold: 0.12 });\
+\
+&#x20;     revealElements.forEach(element => observer.observe(element));\
+&#x20;   } else {\
+&#x20;     revealElements.forEach(element => element.classList.add('visible'));\
+&#x20;   }\
+\
+&#x20;   // Automatic copyright year\
+&#x20;   document.getElementById('year').textContent = new Date().getFullYear();\
+&#x20; \</script>\
+\
+\</body>\
+\</html>
